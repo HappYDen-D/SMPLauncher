@@ -1,0 +1,32 @@
+# Dependencies and generated frontend
+node_modules/
+dist/
+
+# Rust / Tauri build output
+src-tauri/target/
+target/
+
+# .NET sidecar build output
+sidecars/**/bin/
+sidecars/**/obj/
+
+# Local release artifacts
+release/
+*.exe
+*.msi
+*.msix
+*.sha256
+
+# Local configuration, credentials and logs
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
